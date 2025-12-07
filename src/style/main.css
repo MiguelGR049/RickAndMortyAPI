@@ -1,0 +1,99 @@
+@font-face {
+  font-family: 'GetSchwifty';
+  src: url('../fonts/get_schwifty.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  background-image: url('../img/fondo.png');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+#titulo {
+  font-family: 'GetSchwifty';
+  font-weight: bold;
+  font-size: 2rem;
+  color: #6BFF00;
+}
+
+#estado,
+#especie,
+#genero,
+#tipo {
+  max-width: 250px;
+  background-color: rgba(158, 63, 182, 0.8);
+  color: #000000;
+}
+
+#buscar {
+  max-width: 250px;
+  background-color: rgba(158, 63, 182, 0.8);
+  color: #000000;
+}
+
+#nombre,
+#apellido_pa,
+#apellido_ma,
+#usuario,
+#password {
+  background-color: rgba(158, 63, 182, 0.8);
+  color: #000000;
+}
+
+.card {
+  max-width: 450px;
+  background-color: rgba(158, 63, 182, 0.8);
+}
+
+#navbar{
+  background-color: rgba(158, 63, 182, 0.6);
+}
+
+#offcanvasNavbar{
+  background-color: rgba(158, 63, 182, 0.6);
+}
+
+#person {
+  max-width: 450px;
+  background-color: rgba(158, 63, 182, 0.8);
+}
+
+#person:hover {
+  background-color: rgb(158, 63, 182);
+  color: white;
+}
+
+.pagination .page-link {
+  color: #000000;
+  border: 1px solid rgba(158, 63, 182, 0.4);
+  background-color: rgba(158, 63, 182, 0.8);
+  transition: 0.2s ease;
+}
+
+.pagination .page-link:hover {
+  background-color: rgb(158, 63, 182);
+  color: white;
+  border-color: rgba(158, 63, 182, 0.4);
+}
+
+.pagination .page-item.active .page-link {
+  background-color: rgb(158, 63, 182) !important;
+  border-color: rgba(158, 63, 182, 0.8) !important;
+  color: white;
+}
+
+.pagination .page-item.active .page-link:hover {
+  background-color: rgb(127, 50, 146) !important;
+}
+
+.pagination .page-item.disabled .page-link {
+  color: #aaa !important;
+  background-color: rgba(158, 63, 182, 0.25);
+  border-color: rgba(158, 63, 182, 0.25) !important;
+  cursor: not-allowed;
+}
