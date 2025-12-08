@@ -24,7 +24,10 @@ body {
 #estado,
 #especie,
 #genero,
-#tipo {
+#tipo,
+#dimension,
+#episodio,
+#lanzamiento {
   max-width: 250px;
   background-color: rgba(158, 63, 182, 0.8);
   color: #000000;

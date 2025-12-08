@@ -26,7 +26,11 @@ const Inicio = () => {
                             <div className="d-flex justify-content-center text-center mt-1">
                                 <button onClick={() => logout()} className='btn btn-danger me-1'>Cerrar sesion</button>
                                 <NavLink to="/registro" className="btn btn-warning me-1"> Registrar</NavLink>
+                            </div>
+                            <div className="d-flex justify-content-center text-center mt-1">
                                 <NavLink to="/personajes" className="btn btn-success me-1"> Personajes</NavLink>
+                                <NavLink to="/localizacion" className="btn btn-info me-1"> Localizacion</NavLink>
+                                <NavLink to="/episodios" className="btn btn-secondary me-1"> Episodios</NavLink>
                             </div>
                         </div>
                     </div>
